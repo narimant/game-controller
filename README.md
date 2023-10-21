@@ -7,7 +7,7 @@ Create Simple Landing Page And Responsive For Game Controller
 <h4>And this Piture In The SmartPhone Mode</h4>
 
 
-![Screenshot 2023-10-21 120020](https://github.com/narimant/game-controller/assets/25383365/05efe7b6-cd71-4119-952f-94605c2bfb07)
+<img src='https://github.com/narimant/game-controller/assets/25383365/05efe7b6-cd71-4119-952f-94605c2bfb07' />
 
 
 <h5> Detail</h5>
