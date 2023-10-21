@@ -1,7 +1,9 @@
 # game-controller
 Create Simple Landing Page And Responsive For Game Controller
 <h4>The Picture In the Desktop Mode</h4>
-![Screenshot 2023-10-21 120038](https://github.com/narimant/game-controller/assets/25383365/2d2170c1-78f9-4b2a-9b5d-2937365dac19)
+
+
+<img src='https://github.com/narimant/game-controller/assets/25383365/2d2170c1-78f9-4b2a-9b5d-2937365dac19' />
 
 
 <h4>And this Piture In The SmartPhone Mode</h4>
