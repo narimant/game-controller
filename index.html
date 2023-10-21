@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">Vr Accessoreies</a></li>
+                    <li><a href="">Media Remote</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" alt="menu" class="menu-icon" onclick="toggleMenu()">
+
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Ps4 V2 <br>DualShok 4</h2>
+                <h3>Wirless Controlle For PlayStation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now <img src="img/arrow.png" alt=""></button>
+            </div>
+            <div class="col-2">
+                <img src="img/controller.png" alt="" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="img/add.png" alt="">
+                    <p><small>Add To Cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="img/fb.png" alt="">
+            <img src="img/tw.png" alt="">
+            <img src="img/ig.png" alt="">
+        </div>
+    </div>
+    <script>
+        let menuList=document.getElementById('menuList');
+        menuList.style.maxHeight='0px';
+        function toggleMenu(){
+            
+            if(menuList.style.maxHeight=='0px') {
+                menuList.style.maxHeight='130px';
+                console.log('nariman');
+            }else
+            {
+                menuList.style.maxHeight='0px';
+                console.log('tatari');
+            }
+        }
+    </script>
+</body>
+</html>
